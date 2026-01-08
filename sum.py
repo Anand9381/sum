@@ -1,4 +1,5 @@
-a=int(input("enter the numer"))
-b=int(input("enter the numer"))
-print(a+b)
+import sys
 
+a = int(sys.argv[1])
+b = int(sys.argv[2])
+print(a + b)
